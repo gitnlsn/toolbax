@@ -1,0 +1,2 @@
+# Case
+I once implemented a calendar that displays the month days and also the days that completes the edge weeks form the calendar. I decided to create a function that lists those days, so that for each day I would display an html element to render the calendar.

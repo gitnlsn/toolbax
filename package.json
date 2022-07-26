@@ -1,0 +1,19 @@
+{
+  "name": "toolbax",
+  "version": "1.0.0",
+  "description": "useful codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.1"
+  }
+}
