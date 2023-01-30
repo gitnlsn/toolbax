@@ -14,8 +14,8 @@ generateBlameFinalContribution() {
 
 getFileRelativePaths() {
     FILE_PATH=$1
-    REGEX=$2
-    find "$FILE_PATH" -type f | grep -E $REGEX
+    INCLUDE_REGEX=$2
+    find "$FILE_PATH" -type f | grep -E "$INCLUDE_REGEX"
 }
 
 getFileRelativePaths $1 $2 |
